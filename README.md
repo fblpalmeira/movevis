@@ -9,4 +9,4 @@
 
 References: 
 
-https://cran.r-project.org/web/packages/moveVis/index.html
+(Schwalb-Willmann, J. 2020.)[https://cran.r-project.org/web/packages/moveVis/index.html]. Package moveVis: Movement Data Visualization.
