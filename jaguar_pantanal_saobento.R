@@ -13,7 +13,6 @@ m <-df2move(move_felid,
          proj=CRS("+proj=longlat +ellps=GRS80"),
         x = "Long", y = "Lat", time = "dt", track_id = "Individual")
 
-#43200 21600
 # resolution of 1 day (86400seconds) at digit 0 (:00 seconds) per timestamp:
 am <- align_move(m, res = 43200, digit = 0, unit = "secs")
 unique(unlist(timeLag(am, units = "secs")))
@@ -37,21 +36,3 @@ frames[[30]] # preview one of the frames, e.g. the 10th frame
 #suggest_formats()
 
 animate_frames(frames, out_file = "/Jaguar/GIFs/saobento_2008b.gif", width = 800, height = 550, res = 95)
-
-animate_frames(frames, out_file = "/Jaguar/GIFs/saobento_days.gif", width = 800, height = 550, res = 95)
-
-# for mobile
-animate_frames(frames, out_file = "/Boqueirao/Panthera2.mp4")
-
-animate_frames(frames, out_file = "/Boqueirao/Felinos3.3gp")
-
-animate_frames(frames, out_file = "/Boqueirao2/Felinos2.mpeg")#MPEG-1/2 does not support 1000/1 fps
-Erro: FFMPEG error in 'avcodec_open2': Operation not permitted
-> 
-
-#out_dir <- paste0("C:/Users/Cristiano/Desktop/Claudia/MoveVis/Test")
-
-getwd()
-#animate_frames(frames, out_file = "/Test2/moveVis.mpeg")
-
-animate_frames(frames, out_file = "/Test2/moveVis.gif")
