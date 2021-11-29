@@ -2,12 +2,12 @@ library (move)
 library (moveVis)
 library (maptools) # shapefiles
 
-move_felid <-read.csv("jaguar_pantanal_saobento_2008.txt", sep=",")
+move_felid <- read.csv("jaguar_pantanal_saobento_2008.txt", sep=",")
 head(move_felid)
 
-move_felid$dt <-as.POSIXct(strptime(move_felid$dt, "%m/%d/%Y %H:%M", tz ="GMT"),  proj=CRS("+proj=longlat +ellps=GRS80"))
+move_felid$dt <- as.POSIXct(strptime(move_felid$dt, "%m/%d/%Y %H:%M", tz ="GMT"),  proj=CRS("+proj=longlat +ellps=GRS80"))
 
-m <-df2move(move_felid,
+m <- df2move(move_felid,
             proj=CRS("+proj=longlat +ellps=GRS80"),
             x = "Long", y = "Lat", time = "dt", track_id = "Individual")
 
