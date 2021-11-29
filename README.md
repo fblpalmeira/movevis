@@ -4,7 +4,7 @@ An animation showing the movement of nine individuals of jaguar which were track
 
 - [Script `.R`](https://github.com/fblpalmeira/movevis/blob/main/jaguar_pantanal_saobento.R)
 
-- [Database `.csv`](https://github.com/fblpalmeira/movevis/blob/main/jaguar_pantanal_saobento_114_113_2008.txt)
+- [Database `.csv`](https://github.com/fblpalmeira/movevis/blob/main/jaguar_pantanal_saobento_2008.txt)
 
 <img src="jaguar_pantanal_saobento_114_113_2008.gif">
 
