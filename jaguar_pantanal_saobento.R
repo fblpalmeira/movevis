@@ -33,4 +33,4 @@ frames[[30]] # preview one of the frames, e.g. the 10th frame
 
 #suggest_formats()
 
-animate_frames(frames, out_file = "/Jaguar/GIFs/saobento_2008b.gif", width = 800, height = 550, res = 95)
+animate_frames(frames, out_file = "jaguar_pantanal_saobento_2008.gif", width = 800, height = 550, res = 95)
