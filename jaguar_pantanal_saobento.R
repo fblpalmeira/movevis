@@ -1,7 +1,5 @@
 library (move)
 library (moveVis)
-library(magrittr)
-library(ggplot2)
 library (maptools) # shapefiles
 
 move_felid <-read.csv("jaguar_pantanal_saobento_2008.txt", sep=",")
@@ -17,7 +15,7 @@ m <-df2move(move_felid,
 am <- align_move(m, res = 43200, digit = 0, unit = "secs")
 unique(unlist(timeLag(am, units = "secs")))
 
-# Satellite images
+# satellite images
 frames <- frames_spatial(am, path_colours = c("blue","lightblue","yellow","orange","pink","grey",
 "green","purple","red"),
                         map_service = "osm", map_type ="topographic", map_res=1) %>% 
