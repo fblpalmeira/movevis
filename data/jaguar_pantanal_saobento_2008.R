@@ -46,11 +46,11 @@ plot2<-image_annotate(plot, "
                       color = "gray", size = 12, 
                       location = "10+50", gravity = "southeast")
 # And bring in a logo
-jaguar <- image_read("https://raw.githubusercontent.com/fblpalmeira/movevis/main/onca_colar.png") 
+jaguar <- image_read("https://raw.githubusercontent.com/fblpalmeira/movevis/main/data/onca_colar.png") 
 out<-image_composite(plot2,image_scale(jaguar,"x50"), gravity="north", offset = "+280+110")
 
 image_browse(out)
 
 # And overwrite the plot without a logo
-image_write(out, "jaguar_pantanal_saobento3.gif")
+image_write(out, "jaguar_pantanal_saobento2.gif")
 
