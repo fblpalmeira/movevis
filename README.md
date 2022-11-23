@@ -10,7 +10,7 @@ An animation showing the movement of nine individuals of jaguar which were track
 
 - [Script 2 `.R`](https://github.com/fblpalmeira/movevis/blob/main/data/jaguar_pantanal_saobento_2008_sattelite.R)
 
-<img src="https://github.com/fblpalmeira/movevis/blob/main/data/jaguar_pantanal_saobento2.gif">
+<img src="https://github.com/fblpalmeira/movevis/blob/main/data/jaguar_pantanal_saobento_sattelite2.gif">
 
 References: 
 
