@@ -4,13 +4,13 @@ An animation showing the movement of nine individuals of jaguar which were track
 
 - [Database `.csv`](https://github.com/fblpalmeira/movevis/blob/main/data/jaguar_pantanal_saobento_2008.txt)
 
-- [Script Topographic Image `.R`](https://github.com/fblpalmeira/movevis/blob/main/data/jaguar_pantanal_saobento_2008.R)
-
-<img src="https://github.com/fblpalmeira/movevis/blob/main/data/jaguar_pantanal_saobento2.gif">
-
 - [Script Satellite Image `.R`](https://github.com/fblpalmeira/movevis/blob/main/data/jaguar_pantanal_saobento_2008_sattelite.R)
 
 <img src="https://github.com/fblpalmeira/movevis/blob/main/data/jaguar_pantanal_saobento_sattelite2.gif">
+
+- [Script Topographic Image `.R`](https://github.com/fblpalmeira/movevis/blob/main/data/jaguar_pantanal_saobento_2008.R)
+
+<img src="https://github.com/fblpalmeira/movevis/blob/main/data/jaguar_pantanal_saobento2.gif">
 
 References: 
 
