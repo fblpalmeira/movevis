@@ -20,6 +20,7 @@ frames <- frames_spatial(am, path_colours = c("blue","deepskyblue","yellow","ora
                                               "darkgreen","green","purple","red"),
                              path_legend_title = c("Jaguar ID"),
                              map_service = "mapbox", map_type ="satellite", map_token = "YOUR_TOKEN")%>%  
+# register at http://www.mapbox.com to get a free mapbox token
   add_labels(x = "Longitude", y = "Latitude", 
              title="Jaguar movement database: a GPS-based movement dataset" , 
              subtitle="(https://doi.org/10.1002/ecy.2379)") %>% # add some customizations, such as axis labels
